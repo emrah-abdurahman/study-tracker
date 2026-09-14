@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Study Tracker
 
-## Getting Started
+## Project Description and Goal
 
-First, run the development server:
+This is a personal study tracking and subject classification web application I am building. It will have similar features as Google Chrome's Bookmarks Manager but in a more friendly and fun way to use.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I have been using Google Chrome's Bookmarks Manager to classify what I am studying, reading, and learning currently and what I want to study in the future. I have found it to be a slightly clunky and unpleasant experience. So I am creating my own!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I am currently developing the first MVP for myself with a basic UI and functionality.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js
+- React.js
+- TypeScript
+- CSS Modules
+- SQL Database
 
-## Learn More
+## MVP 1 Feature Scope
 
-To learn more about Next.js, take a look at the following resources:
+-	Add folders at any level and view a folder tree and hierarchy
+-	Breadcrumb navigation functionality at the top that is clickable and reflects the current folder path
+-	Add webpages into any folder. Webpages by default will be added with their webpage title and URL
+-	Sorting folders and files in A-Z, Z-A order
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Workflow Approach
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I am using a Git Workflow approach with feature (and bugfix) branches appropriately. For commit messages, I am following the `Conventional Commits` guidelines.
